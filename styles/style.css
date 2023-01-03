@@ -1,0 +1,50 @@
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#section1 {
+   background-color:#3377aa; 
+   color: white;
+   font-size: x-large;
+   max-height: 40vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+img {
+    max-height: 30vh;
+    padding: 15% 0 15% 0;
+    
+}
+
+#list {
+    max-width: 25%;
+    margin: auto;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    
+}
+#section2 {
+    text-align: center;
+    
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    background-color:#3377aa; 
+    color: white;
+    padding: 3% 0 3% 0
+}
+
+#footer-info2 {
+    color: yellow;
+}
+
+#section1, footer {
+    border-radius: 10px;
+}
