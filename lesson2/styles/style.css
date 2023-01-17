@@ -1,0 +1,56 @@
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color:#3377aa; 
+    color: white;
+    max-height: 15%;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    border-radius: 2%;
+    margin-bottom: 3%;
+ }
+ 
+ header h1 {
+     font-size: 2.5rem;
+ }
+ 
+ header h2 {
+     font-size: 2rem;
+ }
+ 
+ section {
+     border: 1px solid black;
+     text-align: center;
+     grid-column-start: 1;
+     grid-column-end: 2;
+ 
+ }
+
+img {
+    max-height: 40vh;
+}
+
+h3, h4, img, p {
+    padding: 7% 7% 7% 7%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 3%;
+}
+
+section {
+    grid-column: 1/2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}

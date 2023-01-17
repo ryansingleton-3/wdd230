@@ -1,0 +1,25 @@
+@media only screen and (min-width: 26em) and (max-width: 32.5em) { 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 3%;
+    }
+
+    #section1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #section2 {
+        
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #section3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+
+} 
