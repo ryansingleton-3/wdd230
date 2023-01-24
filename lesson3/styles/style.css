@@ -1,0 +1,141 @@
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color:  #002349;
+    color:white;
+}
+
+nav {
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-color: #957C3D;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 5% 0 5%;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, nav {
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+}
+
+#blue {
+    background-color: #002349;
+    height: 5rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+#white {
+    background-color: white;
+    height: 5rem;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#gold {
+    background-color: #957C3D;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+    border: 1px solid white;
+    
+}
+
+section {
+    border: 1px solid white;
+    margin-bottom: 5%;
+    border-radius: 100px;
+}
+
+#typography h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.typography {
+    border: 1px solid white;
+    
+}
+
+#paragraph {
+    margin-bottom: 6%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+    max-height: 20rem;
+}
+
+#site-purpose p {
+    margin-bottom: 7%;
+}
+
+#personas p:nth-child(3) {
+    margin-bottom: 6%;
+}
+
+#scenarios div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#site-name h4 {
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+}
