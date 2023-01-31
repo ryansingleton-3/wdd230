@@ -1,0 +1,32 @@
+@media only screen and (min-width: 46em) { 
+    .navigation {
+        display: flex;
+        font-size: 1.2rem;
+        margin-left: 5%;
+    }
+    .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    #top-row {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    section div p {
+        font-size: 1.3em;
+    }
+
+   
+
+    
+}

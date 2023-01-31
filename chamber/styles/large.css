@@ -1,0 +1,56 @@
+@media only screen and (min-width:70em) {  
+ #text-nav-div h4 {
+        font-size: 2rem;
+    }
+    #text-nav-div p {
+        font-size: 1.2rem;
+    }
+
+    #logo {
+        max-height: 10vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        
+        font-size: 1.5rem;
+    }
+
+    #top-row li {
+        font-size: 2rem;
+    }
+
+    #date {
+        font-size: 1.5rem;
+    }
+
+    section div p {
+        font-size: 1.5em;
+    }
+    .icons {
+        max-height: 6vh;
+    }
+}    
