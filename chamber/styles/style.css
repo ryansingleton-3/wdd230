@@ -35,11 +35,14 @@ nav #left-nav-div {
 nav #text-nav-div {
 	text-align: left;
 	padding-left: 4%;
+	padding-right: 4%;
 	
 }
 
-nav div h4 {
-	font-size: 1.2em;
+nav div h1 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 nav div p {
 	font-size: .90em;
@@ -101,7 +104,7 @@ footer {
 	margin-top: 5%;
 }
 
-span {
+#footer-info1, #footer-info2, #footer-info3, #footer-info4 {
 	margin-top: 5%;
 }
 
@@ -150,7 +153,7 @@ section:first-of-type{
 	margin-top: 5%;
 }
 
-section div p {
+section div h2 {
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.0rem;
@@ -173,6 +176,7 @@ h1, h2, h3, h4, nav {
 	font-family: 'Playfair Display', serif;
 }
 
+
 p {
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -185,4 +189,13 @@ p {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+}
+
+iframe {
+	
+	width:50vw;
+	height: 50vh;
+	border:0;
+	margin: 0 auto;
+	
 }
