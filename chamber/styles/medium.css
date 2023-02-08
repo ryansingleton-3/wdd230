@@ -32,5 +32,60 @@
 
    
 
+    .spotlights {
+        background-color: #002349;
+        width: 50%;
+        border: 1px solid white;
+    }
+
+
+
+    #spotlight-section {
+        
+        gap: 1%;
+        background-color: white;
+    }
+
+    #spotlight-div {
+        display:flex;
+        flex-direction: row;
+    }
+
+  
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    section:nth-child(1) { 
+        order: 1; 
+        width: 100%;
+    }
+    section:nth-child(4) {
+        order: 2;
+        width: 100%; 
+    }
+    section:nth-child(5) { 
+        order: 3; 
+        width: 100%; 
+    }
+    section:nth-child(2) { 
+        order: 5; 
+        width: 66%;
+    }
+    section:nth-child(3) { 
+        order: 6; 
+        width: 33%;
+        
+    }
+    section:nth-of-type(6) {
+        display: block;
+        order: 4;
+        width: 100%;
+    }
+    
+   
+
     
 }

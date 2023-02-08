@@ -41,14 +41,18 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <h2>Hero with site name and call to action</h2>
+        <section id="hero-image">
+            <div id="hero-text">
+                <h2>Welcome to Metropolis</h2>
+            </div>
+            <div id="hero-button">
+                <button><a>Become a Member</a></button>
             </div>   
         </section>
         <section>
-            <div>
+            <div id="events">
                 <h2>Event</h2>
+                <span id="event-span"></span>
             </div>   
         </section>
         <section>
@@ -57,18 +61,52 @@
             </div>   
         </section>
         <section>
-            <div>
+            <div id="news-release">
                 <h2>News Release</h2>
+                <p>New members can now sign up completely online!</p>
             </div>   
         </section>
-        <section>
-            <div id="spotlight-container">
-                <div class="spotlights">
+        <section id="spotlight-section">
+            <div id="spotlight-div">
+                <div class="spotlights" id="spotlight1">
                     <h2>Spotlight 1</h2>
+                    <div class="spotlight-img">
+                        <img src="/chamber/images/carpet-cleaner.png" alt="carpet cleaning icon">
+                    </div>
+                    <div class="spotlight-text">
+                        <p class="underlined">Rob's Carpet Cleaning</p>
+                        <p class="phone-number">(555) 555-5554</p>
+                    </div>
                 </div>
-                <div class="spotlights">
+                <div class="spotlights" id="spotlight2">
                     <h2>Spotlight 2</h2>
+                    <div class="spotlight-img">
+                        <img src="/chamber/images/coding.png" alt="coding icon">
+                    </div>
+                    <div class="spotlight-text">
+                        <p class="underlined">Bob's Coding Bootcamp</p>
+                        <p class="phone-number">(555) 555-5553</p>
+                    </div>
                 </div>
+                <div class="spotlights" id="spotlight3">
+                    <h2>Spotlight 3</h2>
+                    <div class="spotlight-img">
+                        <img src="/chamber/images/pizza.png" alt="pizza place icon">
+                    </div>
+                    <div class="spotlight-text">
+                        <p class="underlined">Jimmy's Pizza Parlor</p>
+                        <p class="phone-number">(555) 555-5552</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+        <section>
+            <div id="join">
+                <h2>Join</h2>
+                <button>Become a member today!</button>
+                <p>Discover how to become a member of the Metropolis Chamber of Commerce and how it will benefit your organization!</p>
             </div>
         </section>
     </main>
@@ -80,8 +118,7 @@
             <p>chamber@metropolis.com</p>
             <p>+16185244016</p>
             <div>
-            <h3>Location Map</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50874.29919994026!2d-88.78406702047312!3d37.16117077362377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887a06e4e57107b7%3A0x3f21b2db51d41bec!2sMetropolis%2C%20IL!5e0!3m2!1sen!2sus!4v1675711289221!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            <h3><a href="https://goo.gl/maps/9T5f5Ruii9RYpuCB8" id="location-map">Location Map</a></h3>
             </div>
         </div>
         <div id="bottom-footer">
