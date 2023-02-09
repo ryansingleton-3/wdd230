@@ -1,7 +1,4 @@
-body {
-	max-width: 80%;
-	margin: 0 auto;
-}
+
 
 
  #logo {
@@ -89,6 +86,7 @@ footer {
 	border: 1px solid black;
 	text-align: center;
 	background-color: #957C3D;
+	margin-top: 5%;
 }
 
 #bottom-footer {
@@ -106,6 +104,14 @@ footer {
 
 #footer-info1, #footer-info2, #footer-info3, #footer-info4 {
 	margin-top: 5%;
+}
+#spotlight-section {
+	margin-bottom: 5%;
+	max-height: 50%;
+}
+
+.phone-number {
+	padding-bottom: 2%;
 }
 
 

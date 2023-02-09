@@ -175,11 +175,16 @@
     }
 
     #hero-button button {
-	background-color: #957C3D;
-	height: 5rem;
-    width: 15rem;
-	border-radius: 100px;
-	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+      background-color: #957C3D;
+      height: 5rem;
+      width: 15rem;
+      border-radius: 100px;
+	    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    }
+    body {
+      max-width: 80%;
+      margin: 0 auto;
+    }
 
 }
-}
+
