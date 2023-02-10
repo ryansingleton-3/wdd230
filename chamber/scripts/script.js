@@ -1,3 +1,5 @@
+import { getWeather, getWeatherSpecs } from "./windchill.js";
+
 const nav = document.querySelector(".navigation");
 const navButton = document.querySelector("#menu");
 function toggleMenu() {
@@ -12,13 +14,15 @@ const currentYear = new Date().getFullYear();
 let eventSpan = document.getElementById("event-span");
 let currentDay = new Date().getDay();
 let events = false;
-
-const onLoad = () => {
+const body = document.querySelector("body")
+body.onload = onLoad()
+function onLoad() {
+  getWeather()
   let lastUpdated = `${new Date(document.lastModified)}`;
-  footerLineOne = `&#169; ${currentYear} Metropolis Chamber <br>`;
-  footerLineTwo = `${fullName} <br>`;
-  footerLineThree = `WDD 230 Project <br>`;
-  footerLineFour = `Last Modification: ${lastUpdated}`;
+  const footerLineOne = `&#169; ${currentYear} Metropolis Chamber <br>`;
+  const footerLineTwo = `${fullName} <br>`;
+  const footerLineThree = `WDD 230 Project <br>`;
+  const footerLineFour = `Last Modification: ${lastUpdated}`;
   document.querySelector("#footer-info1").innerHTML = footerLineOne;
   document.querySelector("#footer-info2").innerHTML = footerLineTwo;
   document.querySelector("#footer-info3").innerHTML = footerLineThree;
@@ -57,5 +61,6 @@ const onLoad = () => {
 
     
   }
-  getWeather()
 };
+
+
