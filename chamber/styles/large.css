@@ -1,4 +1,4 @@
-@media only screen and (min-width: 70em) {
+@media only screen and (min-width: 800px) {
   #text-nav-div h4 {
     font-size: 2rem;
   }
@@ -35,7 +35,7 @@
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 
   #top-row li {
@@ -164,15 +164,26 @@
 
     #hero-text h2 {
         font-size: 3rem;
+        margin-top: 6rem;
     }
 
     #hero-button button a {
         font-size: 1.5rem;
     }
 
+    /* #hero-image {
+        background-image: url("../images/wdd230-org.jpg");
+    } */
+
     #hero-image {
-        background-image: url("../images/pexels-abid-bin-nazar-10514204.jpg");
-    }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/wdd230-orgLarge>800px.jpg");
+      height: inherit;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+        
+      }
 
     #hero-button button {
       background-color: #957C3D;
@@ -185,6 +196,15 @@
       max-width: 80%;
       margin: 0 auto;
     }
+
+    #join button {
+      font-size: 1.3rem;
+    }
+  
+    #join p {
+      font-size: 1rem;
+    }
+    
 
 }
 

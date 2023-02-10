@@ -55,7 +55,9 @@ const onLoad = () => {
     } else {
         eventSpan.innerHTML = "Become a member and receive email updates for upcoming events"
         eventSpan.style.fontSize = "2rem"
-        eventSpan.style.innerHTML.textAlign = "center"
     }   
+  
 };
+
+
 

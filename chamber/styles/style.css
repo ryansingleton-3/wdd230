@@ -219,15 +219,25 @@ section:nth-of-type(6) {
 
 
 
-#hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/pexels-abid-bin-nazar-10514204.jpg");
+/* #hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/wdd230-org.jpg");
   height: inherit;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 	
-}
+} */
+
+#hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/wdd230-orgSmall500px.jpg");
+	height: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	  
+  }
 
 #hero-text {
   text-align: center;
@@ -317,3 +327,77 @@ section:nth-of-type(6) {
 #events {
 	text-align: center;
 }
+
+#weather-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	
+
+}
+
+#weather-div {
+	width: 100%;
+	height: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#weather-div h2 {
+	font-size: 2rem;
+	height: 100%;
+	
+}
+
+#condition-icon {
+	width: 80%;
+}
+
+#temp-div {
+	width: 50%;
+	
+	text-align: center;
+	font-size: 2rem;
+}
+
+#condition-div {
+	width: 80%;
+	border-bottom: 5px solid white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#wind-mph-div {
+	width: 80%;
+	margin-top: 0;
+	text-align: center;
+}
+
+.weather-flex-item {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0 0 0;
+}
+
+#windchill-div {
+	width: 80%;
+	margin-top: 0;
+	text-align: center;
+}
+
+#link-back-div a {
+	text-decoration: underline;
+	font-size: 0.8rem;
+}
+
+#link-back-div {
+	font-size: 0.8rem;
+}
+
+
+
+
+
