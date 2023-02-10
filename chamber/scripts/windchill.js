@@ -5,7 +5,7 @@ let windMPH = null;
 let windChill = null;
 
 const apiKey = "8184f1e17133404b88c32358231002";
-metropolisZipCode = "62960";
+const metropolisZipCode = "62960";
 async function getWeather() {
   resp = await fetch(
     `http://api.weatherapi.com/v1/current.json?key=${apiKey}=${metropolisZipCode}&aqi=no`
