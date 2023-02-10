@@ -54,5 +54,8 @@ const onLoad = () => {
     eventSpan.innerHTML =
       "Become a member and receive email updates for upcoming events";
     eventSpan.style.fontSize = "2rem";
+
+    
   }
+  getWeather()
 };
