@@ -39,7 +39,7 @@
   }
 
   #top-row li {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   #date {
@@ -208,3 +208,9 @@
 
 }
 
+
+@media only screen and (min-width: 1000px) {
+  .navigation li a {
+    font-size: 1.3rem;
+  }
+}

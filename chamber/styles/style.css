@@ -45,6 +45,10 @@ nav div p {
 	font-size: .90em;
 }
 
+.navigation li a {
+	font-size: 0.7rem;
+}
+
 
 
 #top-row {
