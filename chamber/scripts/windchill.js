@@ -1,5 +1,4 @@
 async function getWeather() {
-  console.log("we are about to get api data!")
   const apiKey = "8184f1e17133404b88c32358231002";
   const zipCode = "62960";
   const resp = await fetch(
@@ -10,9 +9,7 @@ async function getWeather() {
 }
 
 function getWeatherSpecs(data) {
-  console.log("we are in weather specs!")
   let textCondition = data.current.condition.text;
-  console.log(textCondition);
   let conditionIcon = data.current.condition.icon;
   let temp = data.current.temp_f;
   parseInt(temp);
@@ -30,7 +27,6 @@ function getWeatherSpecs(data) {
     windChill = "N/A";
   }
 
-  console.log(windChill);
 
   const weatherSection = document.getElementById("weather-section");
   const conditionIconImg = document.createElement("img");
