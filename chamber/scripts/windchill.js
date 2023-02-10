@@ -58,7 +58,7 @@ function getWeatherSpecs(data) {
   windMPHDiv.innerHTML = `Wind Speed: ${windMPH} mph`;
 
   weatherSection.appendChild(windChillDiv);
-  windChillDiv.innerHTML = `Windchill: ${windChill}`;
+  windChillDiv.innerHTML = `Windchill: ${windChill}&#176F`;
 
   const linkBackDiv = document.createElement("div");
   linkBackDiv.id = "link-back-div";
