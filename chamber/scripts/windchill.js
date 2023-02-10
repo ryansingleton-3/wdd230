@@ -2,7 +2,7 @@ async function getWeather() {
   const apiKey = "8184f1e17133404b88c32358231002";
   const zipCode = "62960";
   const resp = await fetch(
-    "http://api.weatherapi.com/v1/current.json?key=8184f1e17133404b88c32358231002&q=62960&aqi=no"
+    `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${zipCode}&aqi=no`
   );
   const data = await resp.json();
   getWeatherSpecs(data);
