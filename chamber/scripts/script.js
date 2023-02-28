@@ -40,7 +40,6 @@ function onLoad() {
     document.querySelector("body").style.flexDirection = "column";
     const bannerElement = document.createElement("div");
     const announcement = document.createElement("p");
-    body = document.querySelector("body");
     header = document.querySelector("header");
     body.insertBefore(bannerElement, body.header);
     bannerElement.appendChild(announcement);
