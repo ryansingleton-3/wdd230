@@ -7,7 +7,6 @@ function toggleMenu() {
     .getElementsByClassName("navigation")[0]
     .classList.toggle("responsive");
 }
-
 const fullName = "Ryan Singleton";
 const currentYear = new Date().getFullYear();
 // const state = "Kentucky"
@@ -15,6 +14,7 @@ let eventSpan = document.getElementById("event-span");
 let currentDay = new Date().getDay();
 let events = false;
 const body = document.querySelector("body")
+const header = document.querySelector("header");
 body.onload = onLoad()
 function onLoad() {
   getWeather()
@@ -40,7 +40,6 @@ function onLoad() {
     document.querySelector("body").style.flexDirection = "column";
     const bannerElement = document.createElement("div");
     const announcement = document.createElement("p");
-    header = document.querySelector("header");
     body.insertBefore(bannerElement, body.header);
     bannerElement.appendChild(announcement);
     announcement.innerHTML =
