@@ -400,6 +400,44 @@ section:nth-of-type(6) {
 	font-size: 0.8rem;
 }
 
+#discover-section {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	max-width: 400px;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	max-height:max-content;
+	padding: 5px;
+}
+
+#discover-section picture {
+	margin: 0 auto;
+	margin-bottom: 15%;
+	border-bottom: 2px solid white;
+}
+
+#discover-section picture:last-of-type {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+	max-width: max-content;
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+#discover {
+	text-align: center;
+}
+
+
 
 
 

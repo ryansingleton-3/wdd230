@@ -1,5 +1,37 @@
 import { getWeather, getWeatherSpecs } from "./windchill.js";
 
+const imagesToLoad = document.querySelectorAll("img[data-src]")
+
+const options = {
+    threshold: 0,
+    rootMargin: "0px 0px 50px 0px"
+}
+
+const loadImages = (img) => {
+    img.setAttribute("src", img.getAttribute("data-src"))
+    img.onload = () => {
+        img.removeAttribute("data-src")
+        img.className = "in"
+    };
+};
+if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+      items.forEach((item) => {
+        if (item.isIntersecting) {
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
+    }, options)
+    imagesToLoad.forEach((img) => {
+      observer.observe(img);
+    });
+  } else {
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
+    });
+  }
+
 const nav = document.querySelector(".navigation");
 const navButton = document.querySelector("#menu");
 function toggleMenu() {
@@ -16,6 +48,7 @@ let events = false;
 const body = document.querySelector("body")
 const header = document.querySelector("header");
 body.onload = onLoad()
+
 function onLoad() {
   getWeather()
   let lastUpdated = `${new Date(document.lastModified)}`;
