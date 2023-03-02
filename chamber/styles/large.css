@@ -204,6 +204,18 @@
     #join p {
       font-size: 1rem;
     }
+
+    .discoverimg {
+      transition: transform .2s;
+    }
+
+    .discoverimg:hover {
+      transform: scale(1.1);
+    }
+
+  
+
+    
     
 
 }
