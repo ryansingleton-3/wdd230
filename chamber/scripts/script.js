@@ -1,4 +1,4 @@
-import { getWeather, getWeatherSpecs } from "./windchill.js";
+// import { getWeather, getWeatherSpecs } from "./windchill.js";
 
 const nav = document.querySelector(".navigation");
 const navButton = document.querySelector("#menu");
@@ -18,39 +18,7 @@ const header = document.querySelector("header");
 body.onload = onLoad()
 
 function onLoad() {
-  getWeather()
-  const imagesToLoad = document.querySelectorAll("img[data-src]")
-
-  const options = {
-      threshold: 0,
-      rootMargin: "0px 0px 50px 0px"
-  }
-
-  const loadImages = (img) => {
-      img.setAttribute("src", img.getAttribute("data-src"))
-      img.onload = () => {
-          img.removeAttribute("data-src")
-          img.className = "in"
-      };
-  };
-  if ("IntersectionObserver" in window) {
-      const observer = new IntersectionObserver((items, observer) => {
-        items.forEach((item) => {
-          if (item.isIntersecting) {
-            loadImages(item.target);
-            observer.unobserve(item.target);
-          }
-        });
-      }, options)
-      imagesToLoad.forEach((img) => {
-        observer.observe(img);
-      });
-    } else {
-      imagesToLoad.forEach((img) => {
-        loadImages(img);
-      });
-    }
-
+  // getWeather()
   let lastUpdated = `${new Date(document.lastModified)}`;
   const footerLineOne = `&#169; ${currentYear} Metropolis Chamber <br>`;
   const footerLineTwo = `${fullName} <br>`;
@@ -91,6 +59,26 @@ function onLoad() {
     eventSpan.style.fontSize = "2rem";
 
     
+  }
+  let lastVisitText = document.querySelector("#last-visit");
+  let currentVisit = new Date()
+  let lastVisit = localStorage.getItem("lastVisit")
+  let difference = 0
+  let lastVisitDays = 0
+  let oneDay = 1000 * 3600 * 24
+  if (lastVisit != null) {
+    difference = (currentVisit.getTime() - new Date(localStorage.lastVisit))
+    lastVisitDays = Math.ceil(difference / oneDay);
+  }
+  if (!lastVisit) {
+      lastVisitText.innerHTML = "Welcome! This is your first visit."
+      localStorage.setItem("lastVisit", new Date)
+  } else if (difference < 86400000) {
+      lastVisitText.innerHTML = `Welcome back! It has been less than a day since your last visit.`
+  } else if ( difference > 86400000 && difference < 86400000*2) {
+      lastVisitText.innerHTML = `Welcome back! It has been 1 day since your last visit.`
+  } else {
+      lastVisitText.innerHTML = `Welcome back! It has been ${lastVisitDays} days since your last visit.`
   }
 }
 

@@ -214,7 +214,48 @@
     }
 
   
+    #stats-div {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content:space-around;
+      margin-bottom: 5%;
+    }
+    
+    .stat-table-div {
+      padding: 3%;
+      background-color: #F0F4F8;
+      width: 80%;
+      text-align: center;
+      border-bottom: none;
+    }
+    
+    .stat-table-div h2 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    table {
+      text-align: center;
+      margin: 0 auto;
+    }
 
+    tbody {
+      margin: 0 auto;
+    }
+
+    th {
+      border-bottom: 1px solid black;
+      margin: 0 auto;
+    }
+    
+    td {
+      
+      padding: 20px;
+      margin: 0 auto;
+      
+      
+    }
     
     
 

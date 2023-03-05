@@ -58,8 +58,13 @@ function getWeatherSpecs(data) {
   windMPHDiv.innerHTML = `Wind Speed: ${windMPH} mph`;
 
   weatherSection.appendChild(windChillDiv);
-  windChillDiv.innerHTML = `Windchill: ${windChill}&#176F`;
+  if (windChill == "N/A") {
+    windChillDiv.innerHTML = `Windchill: ${windChill}`
+  } else {
+    windChillDiv.innerHTML = `Windchill: ${windChill}&#176F`;
 
+  }
+  
   const linkBackDiv = document.createElement("div");
   linkBackDiv.id = "link-back-div";
   const linkBackText = `Powered by <em><a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>`;
@@ -67,4 +72,5 @@ function getWeatherSpecs(data) {
   weatherSection.appendChild(linkBackDiv);
 }
 
-export { getWeather, getWeatherSpecs };
+getWeather()
+// export { getWeather, getWeatherSpecs };
