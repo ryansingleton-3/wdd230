@@ -414,13 +414,18 @@ section:nth-of-type(6) {
 
 #discover-section picture {
 	margin: 0 auto;
-	margin-bottom: 15%;
+	margin-bottom: 5%;
 	border-bottom: 2px solid white;
 }
 
 #discover-section picture:last-of-type {
-	margin-bottom: 0;
+	margin-bottom: 7%;
 	border-bottom: none;
+}
+
+#discover-section p {
+	margin-top: 2%;
+	margin-bottom: 20%;
 }
 
 picture img[data-src] {
