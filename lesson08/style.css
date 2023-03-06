@@ -1,0 +1,32 @@
+table {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 15px 15px 15px lightgray;
+}
+
+tbody tr:nth-child(even) {
+	background-color: lightgray;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 0.85rem;
+    padding: 20px;
+}
+
+thead tr {
+    background-color: blue;
+    color: white;
+}
+
+thead tr th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
