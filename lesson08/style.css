@@ -3,6 +3,8 @@ table {
     margin: 0 auto;
     border: 1px solid black;
     box-shadow: 15px 15px 15px lightgray;
+    width: 20%;
+    border-collapse: collapse;
 }
 
 tbody tr:nth-child(even) {
@@ -15,18 +17,27 @@ caption {
     padding: 20px;
 }
 
-thead tr {
+.blue {
     background-color: blue;
     color: white;
 }
 
-thead tr th {
-    padding: 10px;
+thead tr:first-child th,
+thead tr:nth-child(2) th:first-child {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 1px solid blue;
 }
 
-td {
-    padding: 10px;
-    border: 1px solid black;
+td,
+th {
+    padding: 5px 10px;
+    text-align: center;
+    border: thin solid rgb(21, 20, 20);
 }
+
+
+
 
 
