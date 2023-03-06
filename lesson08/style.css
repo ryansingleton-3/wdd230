@@ -22,11 +22,7 @@ caption {
     color: white;
 }
 
-thead tr:first-child th,
-thead tr:nth-child(2) th:first-child {
-    background-color: blue;
-    color: white;
-    text-align: center;
+thead tr:first-child th {
     border: 1px solid blue;
 }
 
