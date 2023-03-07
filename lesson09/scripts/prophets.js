@@ -22,7 +22,7 @@ const displayProphets = data => {
         card.appendChild(p1)
         card.appendChild(p2)
         p1.innerHTML = `Birthdate: ${prophet.birthdate}`
-        p2.innerHTML = `Birthdate: ${prophet.birthplace}`
+        p2.innerHTML = `Birthplace: ${prophet.birthplace}`
         let imgContainer = document.createElement("div")
         card.appendChild(imgContainer)
         imgContainer.className = "img-container"
