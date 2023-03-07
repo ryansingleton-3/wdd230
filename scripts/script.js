@@ -1,7 +1,7 @@
 const fullName = "Ryan Singleton"
 const currentYear = new Date().getFullYear()
 const state = "Kentucky"
-const lastUpdated = Date().toLocaleString()
+let lastUpdated = `${new Date(document.lastModified)}`;
 
 footerLineOne = `${currentYear} | ${fullName} | ${state} <br>`
 footerLineTwo = `Last Updated: ${lastUpdated}`
