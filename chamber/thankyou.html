@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Metropolis Chamber of Commerce Discover Page for WDD230">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <title>Metropolis Chamber of Commerce Discover Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="top-row">
+                <div id="left-nav-div">
+                    <img id="logo" src="./images/metropolis.webp" alt="Metropolis Chamber of Commerce Logo">
+                    <div id="text-nav-div">
+                        <h1>Metropolis</h1>
+                        <p>Chamber of Commerce</p>
+                    </div>
+                    <div id="icon-div">
+                        <a href="https://www.facebook.com/ryan.singleton.771"><img class="icons" src="./images/facebook-1-svgrepo-com.svg" alt="facebook logo"></a>
+                        <a href="https://www.linkedin.com/in/ryansingleton3/"><img class="icons" src="./images/linkedin-1-svgrepo-com.svg" alt="linkedin logo"></a>
+                    </div>
+                </div>
+                <ul class="navigation">
+                    <li><a id="menu" href="#" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="date">
+                <p id="date-text"></p>
+                <p id="last-visit"></p>
+            </div>
+        </nav>
+    </header>
+    <main id="main-thankyou">
+        <h1 id="join-success">Join Successful</h1>
+        <p id="thankyou">Thank you for joining the Metropolis Chamber of Commerce. We will be reaching out to your further with next steps.</p>
+    </main>
+    <footer>
+        <div id="top-footer">
+            <img id="logo2" src="./images/metropolis.webp" alt="Metropolis Chamber of Commerce Logo">   
+            <h3>Metropolis Chamber of Commerce</h3>
+            <p>106 W 5th St, Metropolis, IL 62960</p>
+            <p>chamber@metropolis.com</p>
+            <p>+16185244016</p>
+            <div>
+            <h3><a href="https://goo.gl/maps/9T5f5Ruii9RYpuCB8" id="location-map">Location Map</a></h3>
+            </div>
+        </div>
+        <div id="bottom-footer">
+            <span id="footer-info1"> </span>
+            <span id="footer-info2"> </span>
+            <span id="footer-info3"> </span>
+            <span id="footer-info4"> </span>
+        
+        </div>
+    </footer>
+    <script src="../chamber/scripts/discover.js"></script>
+</body>
+</html>
