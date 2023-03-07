@@ -74,10 +74,13 @@ if (!lastVisit) {
     localStorage.setItem("lastVisit", new Date)
 } else if (difference < 86400000) {
     lastVisitText.innerHTML = `Welcome back! It has been less than a day since your last visit.`
+    localStorage.setItem("lastVisit", new Date)
 } else if ( difference > 86400000 && difference < 86400000*2) {
     lastVisitText.innerHTML = `Welcome back! It has been 1 day since your last visit.`
+    localStorage.setItem("lastVisit", new Date)
 } else {
     lastVisitText.innerHTML = `Welcome back! It has been ${lastVisitDays} days since your last visit.`
+    localStorage.setItem("lastVisit", new Date)
 }
 
 
