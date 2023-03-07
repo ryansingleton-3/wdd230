@@ -80,3 +80,5 @@ if (!lastVisit) {
     lastVisitText.innerHTML = `Welcome back! It has been ${lastVisitDays} days since your last visit.`
 }
 
+
+
