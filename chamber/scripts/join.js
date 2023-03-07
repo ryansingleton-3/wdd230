@@ -5,5 +5,6 @@ const getDate = () => {
     return date
 }
 
-const form = document.querySelector("form")
-form.onload(getDate())
+document.querySelector("#join-form").onload(() => {
+    getDate()
+})
