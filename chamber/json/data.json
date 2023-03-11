@@ -6,7 +6,7 @@
         "phone": "(555) 555-5554",
         "website": "https://www.svgrepo.com/svg/279831/carpet",
         "level": "Gold",
-        "image": "chamber/images/carpet-cleaner.png"
+        "image": "../chamber/images/carpet-cleaner.png"
       },
       {
         "name": "Bob's Coding Bootcamp",
@@ -14,7 +14,7 @@
         "phone": "(555) 555-5553",
         "website": "",
         "level": "Gold",
-        "image": "chamber/images/coding.png"
+        "image": "../chamber/images/coding.png"
       },
       {
         "name": "Jimmy's Pizza Parlor",
@@ -22,7 +22,7 @@
         "phone": "(555) 555-5552",
         "website": "",
         "level": "Gold",
-        "image": "chamber/images/pizza.png"
+        "image": "../chamber/images/pizza.png"
       },
       {
         "name": "Tom's Pet Store",
@@ -30,7 +30,7 @@
         "phone": "(555) 555-5551",
         "website": "https://www.svgrepo.com/svg/405227/dog",
         "level": "Silver",
-        "image": "chamber/images/dog-svgrepo-com.svg"
+        "image": "../chamber/images/dog-svgrepo-com.svg"
       },
       {
         "name": "Brandy's Barbershop",
@@ -38,7 +38,7 @@
         "phone": "(555) 555-5550",
         "website": "https://www.svgrepo.com/svg/126431/barber",
         "level": "Bronze",
-        "image": "chamber/images/barber-svgrepo-com.svg"
+        "image": "../chamber/images/barber-svgrepo-com.svg"
       },
       {
         "name": "Jose's Tacqueria",
@@ -46,7 +46,7 @@
         "phone": "(555) 555-5549",
         "website": "https://www.svgrepo.com/svg/402774/taco",
         "level": "Bronze",
-        "image": "chamber/images/taco-svgrepo-com.svg"
+        "image": "../chamber/images/taco-svgrepo-com.svg"
       },
       {
         "name": "Nicole's Cosmetics",
@@ -54,7 +54,7 @@
         "phone": "(555) 555-5548",
         "website": "https://www.svgrepo.com/svg/179781/makeup-woman",
         "level": "Silver",
-        "image": "chamber/images/makeup-woman-svgrepo-com.svg"
+        "image": "../chamber/images/makeup-woman-svgrepo-com.svg"
       },
       {
         "name": "Tiffany's Jewelry",
@@ -62,7 +62,7 @@
         "phone": "(555) 555-5547",
         "website": "https://www.svgrepo.com/svg/507130/gen-jewel",
         "level": "Bronze",
-        "image": "chamber/images/gen-jewel-svgrepo-com.svg"
+        "image": "../chamber/images/gen-jewel-svgrepo-com.svg"
       },
       {
         "name": "Donna's Diner",
@@ -70,7 +70,7 @@
         "phone": "(555) 555-5546",
         "website": "https://www.svgrepo.com/svg/279799/seat-kitchen",
         "level": "Non-Profit",
-        "image": "chamber/images/seat-kitchen-svgrepo-com.svg"
+        "image": "../chamber/images/seat-kitchen-svgrepo-com.svg"
       }
       
     ]
