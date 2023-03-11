@@ -1,7 +1,7 @@
 
 
 async function getMembers() {
-    let resp = await fetch("json/data.json")
+    let resp = await fetch("../chamber/json/data.json")
     let data = await resp.json()
     addMembers(data)
 }
