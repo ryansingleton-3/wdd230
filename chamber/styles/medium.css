@@ -63,37 +63,120 @@
 
   
 
-    main {
+    #main-index {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    section:nth-child(1) { 
+    #hero-image { 
         order: 1; 
         width: 100%;
     }
-    section:nth-child(4) {
+    #news-section {
         order: 2;
         width: 100%; 
     }
-    section:nth-child(5) { 
+    #spotlight-section { 
         order: 3; 
         width: 100%; 
     }
-    section:nth-child(2) { 
+    #events-section { 
         order: 5; 
         width: 66%;
     }
-    section:nth-child(3) { 
+    #weather-section { 
         order: 6; 
         width: 33%;
         
     }
-    section:nth-of-type(6) {
+    #join-section {
         display: block;
         order: 4;
         width: 100%;
     }
+
+    #directory-heading-div {
+        margin-bottom: 3%;
+        
+    }
+    
+/* grid view ---------------------------------- */
+
+.grid-view {
+	display: flex;
+    align-items: start;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+#directory-div .grid-card {
+	max-height: 15%;
+	border: 1px solid black;
+	box-shadow: 0 10px 10px 10px rgb(61 56 56 / 28%);
+	margin: 0 5% 5% 5%;
+	border-radius: 10px;
+	text-align: center;
+    width: 30%;
+	
+
+}
+
+#directory-div .grid-card p {
+	text-align: center;
+	margin: 5%;
+	
+}
+
+#directory-div .grid-card div {
+	margin: 0 auto;
+	text-align: center;
+
+
+	
+}
+
+#directory-div .grid-card div img {
+	width: 40%;
+}
+
+/* list view ---------------------------------- */
+
+#directory-div .list-card {
+	box-shadow: 0 7px 7px 7px rgb(61 56 56 / 28%);
+	margin: 0 3% 3% 3%;
+    font-size: 1.2rem;
+}
+#directory-div .list-card p:nth-of-type(3) {
+    display: block;
+}
+
+#list-button {
+	background-color: #002349;
+	color: white;
+	border-radius: 5px;
+    height: 100%;
+    width: 30%;
+    box-shadow: 0 5px 5px 5px rgb(61 56 56 / 28%);
+    margin-right: 5%;
+}
+
+#grid-button {
+	background-color: #957C3D;
+	color: white;
+	border-radius: 5px;
+    height: 100%;
+    width: 30%;
+    box-shadow: 0 5px 5px 5px rgb(61 56 56 / 28%);
+}
+#button-div {
+	width: 50%;
+	/* border: 1px solid black; */
+	text-align: right;
+    height: 50px;
+    
+}
     
 }
 

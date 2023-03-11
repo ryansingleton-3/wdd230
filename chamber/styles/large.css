@@ -53,7 +53,7 @@
     max-height: 6vh;
   }
 
-  main {
+  #main-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -82,7 +82,7 @@
   }
 
   /* Hero */
-  section:nth-child(1) {
+  #hero-image {
     /* order: 2; */
     width: 100%;
     grid-column: 2/4;
@@ -90,14 +90,14 @@
     margin-top: 0;
   }
   /* News Release */
-  section:nth-child(4) {
+  #news-section {
     /* order: 6; */
     width: 100%;
     padding: 0;
     grid-column: 2/4;
   }
   /* Spotlights */
-  section:nth-child(5) {
+  #spotlight-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,14 +110,14 @@
   }
 
   /* Event */
-  section:nth-child(2) {
+  #events-section {
     /* order: 1; */
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/2;
   }
   /* Weather */
-  section:nth-child(3) {
+  #weather-section {
     /* order: 4; */
     width: 100%;
     grid-row: 2/3;
@@ -125,7 +125,7 @@
   }
 
   /* Join */
-  section:nth-of-type(6) {
+  #join-section {
     display: block;
     /* order: 5; */
     width: 100%;
@@ -145,7 +145,7 @@
     display: block;
   }
 
-  section {
+  .index-section {
 	background-color: #002349;
 	color: white;
 	max-height: 100%;
@@ -154,11 +154,11 @@
 	border: solid white 1px;
 	/* margin-bottom: 2%; */
     }
-    section:last-child {
+    .index-section:last-child {
         margin-bottom: 0%;
     }
 
-    section:first-of-type{
+    .index-section:first-of-type{
         margin-top: 0%;
     }
 
@@ -257,9 +257,64 @@
       
     }
     
+  /* grid view ---------------------------------- */
+
+  .grid-view {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+
+  #directory-div .grid-card {
+    /* max-width: 100%; */
+    max-height: 15%;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px 10px rgb(61 56 56 / 28%);
+    margin: 0 5% 5% 5%;
+    border-radius: 10px;
+    text-align: center;
+    width: 23%;
     
 
-}
+  }
+
+  #directory-div .grid-card p {
+    text-align: center;
+    margin: 5%;
+    
+  }
+
+  #directory-div .grid-card div {
+    margin: 0 auto;
+    text-align: center;
+
+    
+  }
+
+  #directory-div .grid-card div img {
+    width: 50%;
+  }
+
+  /* list view ---------------------------------- */
+
+  #directory-div .list-card {
+    box-shadow: 0 7px 7px 7px rgb(61 56 56 / 28%);
+    margin: 0 2% 2% 2%;
+  }
+
+  #directory-div .list-card p {
+    font-size: 1.1rem;
+  }
+
+
+  #directory-div .list-card p:nth-of-type(2) {
+    display: block;
+  }
+      
+  }
 
 
 @media only screen and (min-width: 1000px) {

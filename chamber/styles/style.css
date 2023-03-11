@@ -149,7 +149,7 @@ footer {
 	display: block;
 } */
 
-section {
+.index-section {
 	background-color: #002349;
 	color: white;
 	max-height: 50rem;
@@ -158,15 +158,15 @@ section {
 	margin-bottom: 2%;
 }
 
-section:last-child {
+.index-section:last-child {
 	margin-bottom: 5%;
 }
 
-section:first-of-type{
+.index-section:first-of-type{
 	margin-top: 5%;
 }
 
-section div h2 {
+.index-section div h2 {
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.0rem;
@@ -220,7 +220,7 @@ p {
 	display: none;
 }
 
-section:nth-of-type(6) {
+.index-section:nth-of-type(6) {
 	display: none;
 }
 
@@ -613,6 +613,117 @@ th {
 
 }
 
+#directory-heading-div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 3%;
+	
+}
+
+/* #directory-div {
+	border: 1px solid black;
+} */
+
+#body-div {
+	all: unset;
+}
+
+/* grid view ---------------------------------- */
+
+.grid-view {
+	display: flex;
+    align-items: start;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
 
 
+#directory-div .grid-card {
+	/* max-width: 100%; */
+	max-height: 15%;
+	border: 1px solid black;
+	box-shadow: 0 10px 10px 10px rgb(61 56 56 / 28%);
+	margin: 0 5% 5% 5%;
+	border-radius: 10px;
+	text-align: center;
+	
 
+}
+
+#directory-div .grid-card p {
+	text-align: center;
+	margin: 2%;
+	
+}
+
+#directory-div .grid-card div {
+	margin: 0 auto;
+	text-align: center;
+
+	
+}
+
+#directory-div .grid-card div img {
+	width: 50%;
+}
+
+#directory-div .grid-card p:nth-of-type(4) a {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* list view ---------------------------------- */
+
+.list-view {
+	display: block;
+}
+
+#directory-div .list-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	max-height: 5%;
+	border: 1px solid black;
+	box-shadow: 0 10px 10px 10px rgb(61 56 56 / 28%);
+	margin: 0 5% 5% 5%;
+	border-radius: 10px;
+	text-align: left;
+}
+
+/* #directory-div .list-card p {
+	border: 1px solid black;
+} */
+
+#directory-div .list-card p:nth-of-type(2),
+#directory-div .list-card p:nth-of-type(3) {
+	display: none;
+}
+
+#directory-div .list-card p:nth-of-type(4) a {
+	color: blue;
+	text-decoration: underline;
+}
+
+#directory-div .list-card div img {
+	display: none;
+}
+
+#list-button {
+	background-color: #002349;
+	color: white;
+	border-radius: 5px;
+}
+
+#grid-button {
+	background-color: #957C3D;
+	color: white;
+	border-radius: 5px;
+}
+#button-div {
+	width: 50%;
+	/* border: 1px solid black; */
+	text-align: right;
+}
