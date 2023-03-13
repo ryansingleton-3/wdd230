@@ -1,0 +1,10 @@
+#container {
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightblue;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px;
+}
