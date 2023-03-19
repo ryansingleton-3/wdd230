@@ -176,7 +176,7 @@
     } */
 
     #hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/wdd230-orgLarge>800px.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/skyline.jpeg");
       height: inherit;
       background-position: center;
       background-repeat: no-repeat;

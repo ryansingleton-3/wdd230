@@ -43,88 +43,41 @@
         </nav>
     </header>
     <div>
-        <h2 id="join">Join the Chamber</h2>
+        <h2 id="join">Contact Us</h2>
 
-        <table>
-            <caption>Membership Types and Benefits</caption>
-            <thead>
-                <tr class="blue">
-                    <th scope="colgroup" colspan="4">Memberships</th>
-                </tr>
-                <tr id="row2">
-                    <th class="blue">Type</th>
-                    <th scope="col">Discounts</th>
-                    <th scope="col">Spotlight Ads</th>
-                    <th scope="col">Training</th>
-                    
-                </tr>
-            </thead>    
-            <tbody>
-                <tr>
-                    <td>Non-Profit</td>
-                    <td>✔️</td>
-                    <td>❌</td>
-                    <td>❌</td>
-                </tr>
-                <tr>
-                    <td>Bronze</td>
-                    <td>✔️</td>
-                    <td>❌</td>
-                    <td>❌</td>
-                   
-                </tr>
-                <tr>
-                    <td>Silver</td>
-                    <td>✔️</td>
-                    <td>✔️</td>
-                    <td>❌</td>
-                    
-                </tr>
-                <tr>
-                    <td>Gold</td>
-                    <td>✔️</td>
-                    <td>✔️</td>
-                    <td>✔️</td>
-                </tr>
-                
-            </tbody>
-            
-        </table>
 
         <form method="get" action="thankyou.html" id="join-form" onload="getDate()">
         <fieldset>
             <legend>Applicant Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Title<input type="text" name="title"></label>
+                <label class="top">Name*<input type="text" name="name" required></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Business Name*<input type="text" name="bname" required></label>
            
 
         </fieldset>
-        <fieldset>
-            <legend>Membership</legend>
-            <div>Membership Level Selection</div>
-            <label class="sbs"><input type="radio" name="membership" value="Non-Profit Membership">Non-Profit Membership</label>
-            <label class="sbs"><input type="radio" name="membership" value="Bronze Membership">Bronze Membership</label>
-            <label class="sbs"><input type="radio" name="membership" value="Silver Membership">Silver Membership</label>
-            <label class="sbs"><input type="radio" name="membership" value="Gold Membership">Gold Membership</label>
-
-        </fieldset>
 
         <fieldset>
-            <legend>Business</legend>
-            <label class="top">Additional Information <textarea name="businessinfo"></textarea></label>
+            <legend>Message</legend>
+            <label class="top">Message <textarea name="contactMessage"></textarea></label>
             <input type="hidden" id="hidden-date">
             
                     
         </fieldset>
 
-        <input type="submit" value="Join" class="submitBtn">
+        <input type="submit" value="Send" class="submitBtn">
 
     
     </form>
+    <div id="map-div">
+        <div id="inner-map-div">
+            <p>Metropolis Chamber of Commerce</p>
+            <p>106 W 5th St, Metropolis, IL 62960</p>
+            <p>chamber@metropolis.com</p>
+            <p>+16185244016</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25437.165773239918!2d-88.72981808654113!3d37.16112271203585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887a03432fd68ae3%3A0x2cc53b954006469f!2sSuperman%20Statue!5e0!3m2!1sen!2sus!4v1679014019154!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </div>
     </div>
     <footer>
         <div id="top-footer">

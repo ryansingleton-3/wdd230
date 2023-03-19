@@ -13,7 +13,7 @@ async function apiFetch() {
         console.log(data); // this is for testing the call
         displayResults(data);
       } else {
-          throw Error(await response.text());
+          throw Error(await response.text()); 
       }
     } catch (error) {
         console.log(error);

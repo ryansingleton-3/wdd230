@@ -237,7 +237,7 @@ p {
 } */
 
 #hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/wdd230-orgSmall500px.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/skyline.jpeg");
 	height: inherit;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -729,4 +729,24 @@ th {
 	width: 50%;
 	/* border: 1px solid black; */
 	text-align: right;
+}
+
+#map-div {
+	margin: 5%;
+	text-align: center;
+}
+
+#inner-map-div {
+	border: 1px solid var(--navy-blue);
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 2%;
+}
+
+iframe {
+	margin: 0 auto;
+	text-align: center;
+	height: 400px;
+	width: 100%;
 }

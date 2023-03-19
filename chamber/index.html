@@ -33,6 +33,7 @@
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div id="date">
@@ -47,7 +48,7 @@
                 <h2>Welcome to Metropolis</h2>
             </div>
             <div id="hero-button">
-                <button>Become a Member</button>
+                <button><a href="join.html">Become a member</a></button>
             </div>   
         </section>
         <section class="index-section" id="events-section">
@@ -71,32 +72,32 @@
             <div id="spotlight-div">
                 <div class="spotlights" id="spotlight1">
                     <h2>Spotlight 1</h2>
-                    <div class="spotlight-img">
-                        <img src="./images/carpet-cleaner.png" alt="carpet cleaning icon">
+                    <div class="spotlight-img" >
+                        <img id="spotlight1-img" alt="carpet cleaning icon">
                     </div>
                     <div class="spotlight-text">
-                        <p class="underlined">Rob's Carpet Cleaning</p>
-                        <p class="phone-number">(555) 555-5554</p>
+                        <p class="underlined" id="name1"></p>
+                        <p class="phone-number" id="phone1"></p>
                     </div>
                 </div>
                 <div class="spotlights" id="spotlight2">
                     <h2>Spotlight 2</h2>
                     <div class="spotlight-img">
-                        <img src="./images/coding.png" alt="coding icon">
+                        <img alt="coding icon" id="spotlight2-img">
                     </div>
                     <div class="spotlight-text">
-                        <p class="underlined">Bob's Coding Bootcamp</p>
-                        <p class="phone-number">(555) 555-5553</p>
+                        <p class="underlined" id="name2"></p>
+                        <p class="phone-number" id="phone2"></p>
                     </div>
                 </div>
                 <div class="spotlights" id="spotlight3">
                     <h2>Spotlight 3</h2>
                     <div class="spotlight-img">
-                        <img src="./images/pizza.png" alt="pizza place icon">
+                        <img alt="pizza place icon" id="spotlight3-img">
                     </div>
                     <div class="spotlight-text">
-                        <p class="underlined">Jimmy's Pizza Parlor</p>
-                        <p class="phone-number">(555) 555-5552</p>
+                        <p class="underlined" id="name3"></p>
+                        <p class="phone-number" id="phone3"></p>
                     </div>
                 </div>
             </div>
@@ -106,7 +107,7 @@
         <section class="index-section" id="join-section">
             <div id="join">
                 <h2>Join</h2>
-                <button>Become a member today!</button>
+                <button><a href="join.html">Become a member today!</a></button>
                 <p>Discover the benefits of the Metropolis Chamber of Commerce and how it will help your organization!</p>
             </div>
         </section>
@@ -132,5 +133,6 @@
     </footer>
     <script src="../chamber/scripts/script.js"></script>
     <script src="../chamber/scripts/windchill.js"></script>
+    <script src="../chamber/scripts/spotlights.js"></script>
 </body>
 </html>

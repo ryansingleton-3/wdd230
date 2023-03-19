@@ -1,14 +1,6 @@
 {
     "members": [
       {
-        "name": "Rob's Carpet Cleaning",
-        "address": "122 Main St Metropolis, IL",
-        "phone": "(555) 555-5554",
-        "website": "https://www.svgrepo.com/svg/279831/carpet",
-        "level": "Gold",
-        "image": "../chamber/images/carpet-cleaner.png"
-      },
-      {
         "name": "Bob's Coding Bootcamp",
         "address": "123 Main St Metropolis, IL",
         "phone": "(555) 555-5553",
@@ -16,6 +8,15 @@
         "level": "Gold",
         "image": "../chamber/images/coding.png"
       },
+      {
+        "name": "Rob's Carpet Cleaning",
+        "address": "122 Main St Metropolis, IL",
+        "phone": "(555) 555-5554",
+        "website": "https://www.svgrepo.com/svg/279831/carpet",
+        "level": "Gold",
+        "image": "../chamber/images/carpet-cleaner.png"
+      },
+      
       {
         "name": "Jimmy's Pizza Parlor",
         "address": "124 Main St Metropolis, IL",
