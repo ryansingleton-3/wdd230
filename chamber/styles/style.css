@@ -294,11 +294,15 @@ p {
 #join button {
 	height: 50%;
 	width: 80%;
-	background-color: #957C3D;
-	color: black;
+	background-color: white;
+	color: white;
 	border-radius: 100px;
 	font-size: 1.5rem;
 	
+}
+
+#join button a {
+	color: black;
 }
 
 #join button:hover {
