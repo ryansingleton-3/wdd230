@@ -1,0 +1,23 @@
+@media only screen and (min-width: 500px) { 
+
+    #location-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #location-section > div {
+      height: 100%;
+      
+    }
+
+    #nav-img-div > img {
+      max-width: 20%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+
+
+}
+
+

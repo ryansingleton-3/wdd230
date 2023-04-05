@@ -1,0 +1,215 @@
+:root {
+    /* Primary */
+  --red-050: #FFEEEE;
+  --red-100: #FACDCD;
+  --red-200: #F29B9B;
+  --red-300: #E66A6A;
+  --red-400: #D64545;
+  --red-500: #BA2525;
+  --red-600: #A61B1B;
+  --red-700: #911111;
+  --red-800: #780A0A;
+  --red-900: #610404;  
+
+  --yellow-vivid-050: #FFFBEA;
+  --yellow-vivid-100: #FFF3C4;
+  --yellow-vivid-200: #FCE588;
+  --yellow-vivid-300: #FADB5F;
+  --yellow-vivid-400: #F7C948;
+  --yellow-vivid-500: #F0B429;
+  --yellow-vivid-600: #DE911D;
+  --yellow-vivid-700: #CB6E17;
+  --yellow-vivid-800: #B44D12;
+  --yellow-vivid-900: #8D2B0B;  
+
+  /* // Neutrals */
+  --warm-grey-050: #FAF9F7;
+  --warm-grey-100: #E8E6E1;
+  --warm-grey-200: #D3CEC4;
+  --warm-grey-300: #B8B2A7;
+  --warm-grey-400: #A39E93;
+  --warm-grey-500: #857F72;
+  --warm-grey-600: #625D52;
+  --warm-grey-700: #504A40;
+  --warm-grey-800: #423D33;
+  --warm-grey-900: #27241D;
+
+  /* // Supporting */
+  --cyan-050: #E0FCFF;
+  --cyan-100: #BEF8FD;
+  --cyan-200: #87EAF2;
+  --cyan-300: #54D1DB;
+  --cyan-400: #38BEC9;
+  --cyan-500: #2CB1BC;
+  --cyan-600: #14919B;
+  --cyan-700: #0E7C86;
+  --cyan-800: #0A6C74;
+  --cyan-900: #044E54; 
+
+  --lime-green-050: #F2FDE0;
+  --lime-green-100: #E2F7C2;
+  --lime-green-200: #C7EA8F;
+  --lime-green-300: #ABDB5E;
+  --lime-green-400: #94C843;
+  --lime-green-500: #7BB026;
+  --lime-green-600: #63921A;
+  --lime-green-700: #507712;
+  --lime-green-800: #42600C;
+  --lime-green-900: #2B4005; 
+
+  /* Fonts */
+  --fonts: "Open Sans", "sans-serif";
+  --heading-weight: 700;
+  --text: "italic";
+
+}
+
+html {
+    background-color: var(--warm-grey-050);
+    margin: 0 0 0 0;
+}
+body {
+    margin: 0 0 0 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--yellow-vivid-300);
+}
+
+
+nav > div {
+    width: 100%;
+    display: block;
+    
+    
+}
+
+#bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: var(--yellow-vivid-300);
+    font-weight: var(--heading-weight);
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    
+}
+#bottom-nav > div > a {
+    text-decoration: none;
+    color: var(--warm-grey-800);
+}
+
+#top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--yellow-vivid-300);
+    color: var(--warm-grey-800);
+    font-weight: var(--heading-weight);
+    font-size: 1rem;
+    height: 3rem;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+}
+
+#nav-img-div {
+    width: 40%;
+    display: flex;
+}
+
+#nav-img-div > img {
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#top-nav > h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#brand-name {
+    text-align: center;
+}
+
+
+#border-div {
+    border-bottom: 1px solid var(--warm-grey-800);
+    width: 80%;
+}
+
+#hero-img-div {
+    background-image: url(../images/hero-img.jpg);
+    height: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+   
+}
+
+#top-nav > div {
+    color: var(--warm-grey-800);
+}
+
+#hero-img-div > button {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: var(--yellow-vivid-500);
+    color: var(--warm-grey-800);
+    height: 2rem;
+    max-width: 35%;
+    border-radius: 20px;
+}
+
+.home-page-section {
+    height: 15rem;
+   
+}
+
+#hero-section {
+    height: 60vh;
+}
+
+#location-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#location-section > div {
+    height: 50%;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+#current-weather-div {
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+#forecast-weather-div {
+    border: 1px solid black;
+    
+}
+
+#socials-div {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#socials-div > img {
+    max-height: 50px;
+}
