@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the fresh page for Bountiful Foods. Orders can be taken here and drinks can be created.">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <title>Bountiful Foods - Fresh Page</title>
+</head>
+<body>
+    <nav>
+        <div id="top-nav">
+            <div id="nav-img-div">
+                <img src="./images/logo.png" alt="bountiful foods logo">
+            </div>
+            <h1 id="brand-name">Bountiful Foods</h1>
+        </div>
+        <div id="border-div">
+        </div>
+        <div id="bottom-nav">
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="fresh.html">Fresh</a></div>
+            <div class="nav-item"><a href="about-us.html">About Us</a></div>
+        </div>
+    </nav>
+
+    <h2 id="fresh-header">Make Your Own Fruit Drink!</h2>
+    
+    <form method="get" id="drink-form">
+        <fieldset>
+            <legend>Your Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+           
+
+        </fieldset>
+        <fieldset>
+            <legend>Fruit Selection</legend>
+            <div>Fruit 1</div>
+            <select id="options1" name="options1">
+                <option value="">Select an option</option>
+            </select>
+            <div>Fruit 2</div>
+            <select id="options2" name="options2">
+                <option value="">Select an option</option>
+            </select>
+            <div>Fruit 3</div>
+            <select id="options3" name="options3">
+                <option value="">Select an option</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <label class="top">Additional Information <textarea name="comments"></textarea></label>
+            <input type="hidden" id="hidden-date">
+            
+                    
+        </fieldset>
+
+        <input type="submit" value="Make my drink!" class="submitBtn">
+
+    
+    </form>
+    <div id="result">
+        
+    </div>
+    <footer>
+        <div id="socials-div">
+            <img src="./images/facebook-1-svgrepo-com.svg" alt="facebook logo">
+            <img src="./images/linkedin-1-svgrepo-com.svg" alt="linkedin logo">
+            <img src="./images/facebook-1-svgrepo-com.svg" alt="facebook logo">
+        </div>
+        <div id="last-updated">
+
+        </div>
+    </footer>
+
+    <script src="./scripts/fruits.js"></script>
+    <script src="./scripts/footer.js"></script>
+</body>
+</html>
