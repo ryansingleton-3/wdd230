@@ -26,6 +26,7 @@ async function displayWeather(data, dataF) {
     "src",
     `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
   );
+  currentIcon.setAttribute("alt", "weather icon")
   let tempDiv = document.createElement("Div");
   currentWDiv.appendChild(tempDiv);
   tempDiv.innerHTML = `${data.main.temp}&#176F`;
